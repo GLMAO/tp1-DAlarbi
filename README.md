@@ -3,3 +3,5 @@
 CS(14)
 
 task 1 done.(fixed)
+
+task 2 done.
