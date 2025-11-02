@@ -8,7 +8,7 @@
 
 > **Module :** Génie Logiciel  
 > **Sujet :** Implémentation du Pattern Observer avec gestion de la concurrence  
-> **Auteur :** DAlarbi
+> **Auteur :** salahedine LARBI
 
 ---
 
@@ -319,4 +319,3 @@ java -cp "out\timer-service;out\timer-service-impl;out\timer-service-client" org
 - `timer-service-impl/src/main/java/org/emp/gl/timer/service/impl/DummyTimeServiceImpl.java`
 - `timer-service-client/src/main/java/org/emp/gl/clients/Horloge.java`
 
--
