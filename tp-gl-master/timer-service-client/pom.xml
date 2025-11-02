@@ -10,6 +10,11 @@
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
+            <groupId>org.emp.gl</groupId>
+            <artifactId>time-service-impl</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
             <artifactId>timer-service</artifactId>
             <groupId>org.emp.gl</groupId>
             <version>0.0.1</version>

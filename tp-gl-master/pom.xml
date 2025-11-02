@@ -27,7 +27,7 @@
   </dependencies>
 
  <modules>  
-    <module>launcher</module>
+  <module>launcher</module>
   <module>timer-service</module>
   <module>time-service-impl</module>
   <module>timer-service-client</module>

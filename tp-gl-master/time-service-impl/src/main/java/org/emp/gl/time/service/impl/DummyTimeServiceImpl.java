@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.emp.gl.time.service.impl;
+package org.emp.gl.timer.service.impl;
 
 import java.time.LocalTime;
 import java.util.LinkedList;
