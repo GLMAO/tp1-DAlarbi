@@ -22,9 +22,9 @@ public class Horloge implements TimerChangeListener {
     }
 
     @Override
-    public void propertyChange(String propertyName, Object oldValue, Object newValue) {
+    public void propertyChange(java.beans.PropertyChangeEvent evt) {
         // N’affiche l’heure que quand les secondes changent
-        if (propertyName.equals(TimerChangeListener.SECONDE_PROP)) {
+        if (TimerChangeListener.SECONDE_PROP.equals(evt.getPropertyName())) {
             afficherHeure();
         }
     }

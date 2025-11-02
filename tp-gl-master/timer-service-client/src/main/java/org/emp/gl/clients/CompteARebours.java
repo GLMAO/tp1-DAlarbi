@@ -23,11 +23,11 @@ public class CompteARebours implements TimerChangeListener {
     }
 
     @Override
-    public void propertyChange(String propertyName,Object oldValue, Object newValue) {
+    public void propertyChange(java.beans.PropertyChangeEvent evt) {
         // ici on suppose que SECONDE_PROP est le nom envoyé chaque seconde
         if (!active) return;
 
-        if (TimerChangeListener.SECONDE_PROP.equals(propertyName)) {
+        if (TimerChangeListener.SECONDE_PROP.equals(evt.getPropertyName())) {
             tick();
         }
     }
