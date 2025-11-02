@@ -2,4 +2,4 @@
 
 CS(14)
 
-task 1 done.
+task 1 done.(fixed)
